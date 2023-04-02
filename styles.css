@@ -1,0 +1,76 @@
+html, body {
+    background-color: black;
+    font-family: 'Cormorant Garamond', serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#topArea {
+    width: 100%;
+    margin: 0em;
+    padding: 0em 0em 1em 0em;
+    position: fixed;
+    top: 0;
+    background-color: black;
+    border-bottom: 1px solid white;
+}
+
+h1 {
+    margin-block-start: 0.5em;
+    padding: 0;
+}
+
+h1 a {
+    width: 4em;
+    font-size: 2em;
+    margin-left: .5em;
+}
+
+ul {
+    list-style: none;
+    margin: -1em 0em -1em -1.5em; /* what the hell */
+}
+
+li {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+li a {
+    display: block;
+    font-size: 1em;
+    padding: 0.5em 1em 0.5em 1em;
+    margin: 0;
+    text-align: center;
+}
+
+li a:hover, .articleLink:hover, .active{
+    color: gold;
+    transition: color .5s;
+}
+
+#mainArea {
+    color: white;
+    margin: 1em;
+    margin-block-start: 11em;
+    padding: 0em 1em 100em 1em;
+    /* border: 1px solid white; */
+}
+
+.articleLink {
+    display: inline-block;
+    margin: 0;
+}
+
+.articleTitle {
+    margin: 0;
+    padding: 0;
+    width: 25em;
+}
+
