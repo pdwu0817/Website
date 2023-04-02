@@ -60,7 +60,6 @@ li a:hover, .articleLink:hover, .active{
     margin: 1em;
     margin-block-start: 11em;
     padding: 0em 1em 100em 1em;
-    /* border: 1px solid white; */
 }
 
 .articleLink {
